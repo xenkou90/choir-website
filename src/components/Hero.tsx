@@ -24,11 +24,13 @@ const Hero = () => {
                 </a>
             </div>
 
-            <div className="relative bg-neutral-900 flex items-center justify-center">
-                <span className="text-white/10 text-xs tracking-widest uppercase">
-                    Photo coming soon
-                </span>
-                <div className="absolute inset-0 bg-orange-400/5" />
+            <div className="relative">
+                <img
+                    src="/src/assets/photo-home-page.jpg"
+                    alt="Ambitus Choir"
+                    className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-orange-400/10" />
             </div>
         </section>
     )
