@@ -1,0 +1,30 @@
+[
+    {
+        "date": "2025-04-12",
+        "title": "Spring Concert",
+        "venue": "Ionian Academy",
+        "city": "Corfu, Greece",
+        "description": "An evening of classical and contemporary choral music."
+    },
+    {
+        "date": "2025-05-03",
+        "title": "Sacred Music Festival",
+        "venue": "Church of Sait Spyridon",
+        "city": "Corfu, Greece",
+        "description": "Performing sacred works from the Byzantine and Western tradition."
+    },
+    {
+        "date": "2025-06-21",
+        "title": "Midsummer Night's Concert",
+        "venue": "Old Fortress of Corfu",
+        "city": "Corfu, Greece",
+        "description": "An open-air performance under the stars."
+    },
+    {
+        "date": "2025-09-15",
+        "title": "European Choir Festival",
+        "venue": "Megaron Athens Concert Hall",
+        "city": "Athens, Greece",
+        "description": "Representing Corfu alongside ensembles from across Europe."
+  }
+]
