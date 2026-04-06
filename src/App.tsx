@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Gallery from './components/Gallery'
 import Calendar from './components/Calendar'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="min-h-screen bg-black">
       <Navbar />
       <Hero />
+      <Gallery />
       <Calendar />
     </div>
   )
