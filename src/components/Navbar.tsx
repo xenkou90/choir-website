@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-70 py-5 border-b border-white/10 bg-black">
+    <nav className="flex items-center justify-between px-70 py-5 border-b border-white/10 bg-black sticky top-0 z-50">
 
       {/* LEFT — logo + location */}
       <div className="flex items-center gap-6">
