@@ -25,11 +25,11 @@ const Navbar = () => {
         ))}
       </div>
 
-      {/* RIGHT — social icons placeholder */}
+      {/* RIGHT — social links */}
       <div className="flex gap-4 text-white/40 text-sm">
-        <span>Facebook</span>
-        <span>Instagram</span>
-        <span>Youtube</span>
+        <a href="https://www.facebook.com/AmbitusChoir" target="_blank" rel="noreferrer" className="hover:text-orange-400 transition-colors">Facebook</a>
+        <a href="https://www.instagram.com/ambitus_choir/" target="_blank" rel="noreferrer" className="hover:text-orange-400 transition-colors">Instagram</a>
+        <a href="https://www.youtube.com/@ambituschoirgreecce" target="_blank" rel="noreferrer" className="hover:text-orange-400 transition-colors">Youtube</a>
       </div>
 
     </nav>
