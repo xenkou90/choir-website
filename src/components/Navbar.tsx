@@ -4,9 +4,9 @@ const Navbar = () => {
 
       {/* LEFT — logo + location */}
       <div className="flex items-center gap-6">
-        <span className="font-serif text-white text-xl tracking-widest uppercase">
+        <a href="#" className="font-serif text-white text-xl tracking-widest uppercase hover:text-orange-400 transition-colors">
           Ambitus Choir
-        </span>
+        </a>
         <span className="text-xs text-white/40 tracking-wide border-l border-white/20 pl-6">
           Ambitus: the vocal range, the order of sounds…
         </span>
