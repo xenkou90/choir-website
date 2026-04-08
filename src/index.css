@@ -4,3 +4,7 @@
 @theme {
   --font-serif: 'Cormorant Garamond', serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
