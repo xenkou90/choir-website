@@ -9,13 +9,7 @@ const Hero = () => {
                 <h1 className="font-serif text-white text-7xl font-bold leading-tight mb-8">
                     Voices<br />That Move<br />the Soul
                 </h1>
-                <p className="text-white/50 text-sm leading-relaxed max-w-sm mb-12">
-                    Η Χορωδία «Ambitus» υφίσταται από το 2002 και είναι ιδρυτικό μέλος της Στέγης Ελληνικών Χορωδιών. 
-                    Αποτελείται από απόφοιτους του Λεοντείου Λυκείου Νέας Σμύρνης, μουσικούς - ερασιτέχνες και μη - καθώς 
-                    και άλλους λάτρεις του χορωδιακού τραγουδιού. Αποτελούμενη από μικτό, ανδρικό και γυναικείο σύνολο, 
-                    έχει διακριθεί σε εθνικούς και διεθνείς διαγωνισμούς κερδίζοντας, μεταξύ άλλων, πρώτα βραβεία και 
-                    grand-prix, τόσο στην Ελλάδα όσο και στο εξωτερικό. 
-                </p>
+
                 <a
                     href="#calendar"
                     className="border border-orange-400 text-orange-400 text-xs tracking-widest uppercase px-8 py-4 w-fit hover:bg-orange-400 hover:text-black transition-all"
