@@ -13,7 +13,7 @@ const Gallery = () => {
   const [selected, setSelected] = useState<string | null>(null)
 
   return (
-    <section id="gallery" className="bg-black py-24 px-70">
+    <section id="gallery" className="bg-black py-24 px-6 md:px-70">
 
       {/* Section header */}
       <span className="text-xs tracking-widest uppercase text-orange-400">
@@ -24,7 +24,7 @@ const Gallery = () => {
       </h2>
 
       {/* Photo grid */}
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {photos.map((photo) => (
           <div
             key={photo.id}

@@ -2,7 +2,7 @@ import events from '../events.json'
 
 const Calendar = () => {
     return (
-        <section id="calendar" className="bg-black py-24 px-70">
+        <section id="calendar" className="bg-black py-24 px-6 md:px-70">
 
             {/* Section header */}
             <span className="text-xs tracking-widest uppercase text-orange-400">
