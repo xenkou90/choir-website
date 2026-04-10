@@ -1,12 +1,12 @@
 import { useState } from 'react'
 
 const photos = [
-  { id: 1, src: 'https://placehold.co/600x400/1a1a1a/orange?text=Photo+1' },
-  { id: 2, src: 'https://placehold.co/600x400/1a1a1a/orange?text=Photo+2' },
-  { id: 3, src: 'https://placehold.co/600x400/1a1a1a/orange?text=Photo+3' },
-  { id: 4, src: 'https://placehold.co/600x400/1a1a1a/orange?text=Photo+4' },
-  { id: 5, src: 'https://placehold.co/600x400/1a1a1a/orange?text=Photo+5' },
-  { id: 6, src: 'https://placehold.co/600x400/1a1a1a/orange?text=Photo+6' },
+  { id: 1, src: '/src/assets/photo-1.jpg' },
+  { id: 2, src: '/src/assets/photo-2.jpg' },
+  { id: 3, src: '/src/assets/photo-3.jpg' },
+  { id: 4, src: '/src/assets/photo-4.jpg' },
+  { id: 5, src: '/src/assets/photo-5.jpg' },
+  { id: 6, src: '/src/assets/photo-6.jpg' },
 ]
 
 const Gallery = () => {
