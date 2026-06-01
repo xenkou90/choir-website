@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Gallery from './components/Gallery'
 import Calendar from './components/Calendar'
+import Footer from './components/Footer'
 
 function App() {
   const [showTop, setShowTop] = useState(false)
@@ -21,6 +22,7 @@ function App() {
       <About />
       <Gallery />
       <Calendar />
+      <Footer />
 
       {/* Back to top button */}
       {showTop && (
