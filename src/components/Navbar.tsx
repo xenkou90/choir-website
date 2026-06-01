@@ -22,10 +22,10 @@ const Navbar = () => {
         </div>
 
         {/* SOCIAL — hidden on mobile */}
-        <div className="hidden md:flex gap-4 text-white/40 text-sm">
-          <span>Facebook</span>
-          <span>Instagram</span>
-          <span>Youtube</span>
+        <div className="hidden md:flex gap-4 text-sm">
+          <a href="https://www.facebook.com/AmbitusChoir" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-orange-400 transition-colors">Facebook</a>
+          <a href="https://www.instagram.com/ambitus_choir" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-orange-400 transition-colors">Instagram</a>
+          <a href="https://www.youtube.com/@ambituschoirgreecce" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-orange-400 transition-colors">Youtube</a>
         </div>
 
         {/* MENU — mobile only */}
