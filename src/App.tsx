@@ -16,7 +16,7 @@ function App() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-black">
+    <div className="min-h-screen bg-black fade-in">
       <Navbar />
       <Hero />
       <hr className="border-white/5" />
