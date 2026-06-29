@@ -19,9 +19,13 @@ function App() {
     <div className="min-h-screen bg-black">
       <Navbar />
       <Hero />
+      <hr className="border-white/5" />
       <About />
+      <hr className="border-white/5" />
       <Gallery />
+      <hr className="border-white/5" />
       <Calendar />
+      <hr className="border-white/5" />
       <Footer />
 
       {/* Back to top button */}
