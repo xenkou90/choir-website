@@ -5,6 +5,7 @@ import About from './components/About'
 import Gallery from './components/Gallery'
 import Calendar from './components/Calendar'
 import Footer from './components/Footer'
+import Contact from './components/Contact'
 
 function App() {
   const [showTop, setShowTop] = useState(false)
@@ -25,6 +26,8 @@ function App() {
       <Gallery />
       <hr className="border-white/5" />
       <Calendar />
+      <hr className="border-white/5" />
+      <Contact />
       <hr className="border-white/5" />
       <Footer />
 
