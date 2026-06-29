@@ -23,9 +23,9 @@ const Navbar = () => {
 
         {/* SOCIAL — hidden on mobile */}
         <div className="hidden md:flex gap-4 text-sm">
-          <a href="https://www.facebook.com/AmbitusChoir" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-orange-400 transition-colors">Facebook</a>
-          <a href="https://www.instagram.com/ambitus_choir" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-orange-400 transition-colors">Instagram</a>
-          <a href="https://www.youtube.com/@ambituschoirgreecce" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-orange-400 transition-colors">Youtube</a>
+          <a href="https://www.facebook.com/AmbitusChoir" target="_blank" rel="noopener noreferrer" className="text-xs tracking-widest uppercase text-white/60 hover:text-orange-400 transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-px after:bg-orange-400 after:transition-all hover:after:w-full">Facebook</a>
+          <a href="https://www.instagram.com/ambitus_choir" target="_blank" rel="noopener noreferrer" className="text-xs tracking-widest uppercase text-white/60 hover:text-orange-400 transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-px after:bg-orange-400 after:transition-all hover:after:w-full">Instagram</a>
+          <a href="https://www.youtube.com/@ambituschoirgreecce" target="_blank" rel="noopener noreferrer" className="text-xs tracking-widest uppercase text-white/60 hover:text-orange-400 transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-px after:bg-orange-400 after:transition-all hover:after:w-full">Youtube</a>
         </div>
 
         {/* MENU — mobile only */}
