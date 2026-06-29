@@ -42,7 +42,7 @@ const Calendar = () => {
                                     {event.title}
                                 </h3>
                                 <span className="text-white/40 text-xs tracking-wide uppercase">
-                                    {event.venue} · {event.city}
+                                    📍 {event.venue} · {event.city}
                                 </span>
                                 <p className="text-white/50 text-sm leading-relaxed mt-2">
                                     {event.description}
