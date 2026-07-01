@@ -1,6 +1,6 @@
 const Hero = () => {
     return (
-        <section className="grid grid-cols-1 md:grid-cols-2 min-h-screen bg-black">
+        <section className="relative grid grid-cols-1 md:grid-cols-2 min-h-screen bg-black">
 
             <div className="flex flex-col justify-center pl-6 md:pl-70 py-20">
                 <span className="text-xs tracking-widest uppercase text-orange-400 mb-8">
@@ -26,6 +26,15 @@ const Hero = () => {
                 />
                 <div className="absolute inset-0 bg-orange-400/10" />
             </div>
+
+            {/* Scroll down arrow */}
+            <a
+                href="#about"
+                className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/30 hover:text-orange-400 transition-colors animate-bounce"
+            >
+                <span className="text-xs tracking-widest uppercase">Scroll</span>
+                <span className="text-lg">↓</span>
+            </a>
         </section>
     )
 }
