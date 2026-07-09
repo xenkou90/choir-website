@@ -18,13 +18,13 @@ const Hero = () => {
                 </a>
             </div>
 
-            <div className="relative h-64 md:h-auto">
+            <div className="relative h-64 md:h-auto overflow-hidden">
                 <img
                     src="/src/assets/photo-home-page.jpg"
                     alt="Ambitus Choir"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover hover:scale-105 transition-tranform duration-700"
                 />
-                <div className="absolute inset-0 bg-orange-400/10" />
+                <div className="absolute inset-0 bg-orange-400/10 pointer-events-none" />
             </div>
 
             {/* Scroll down arrow */}
