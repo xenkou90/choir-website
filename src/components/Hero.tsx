@@ -6,7 +6,7 @@ const Hero = () => {
                 <span className="text-xs tracking-widest uppercase text-orange-400 mb-8">
                     Choral Ensemble · EST. 2002
                 </span>
-                <h1 className="font-serif text-white text-7xl font-bold leading-tight mb-8">
+                <h1 className="font-serif text-white text-7xl font-bold leading-tight mb-8 drop-shadow-lg">
                     Voices<br />That Move<br />the Soul
                 </h1>
 
