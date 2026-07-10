@@ -8,10 +8,21 @@ const Contact = () => {
     setForm({ ...form, [e.target.name]: e.target.value })
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    setSubmitted(true)
+const [error, setError] = useState('')
+
+const handleSubmit = (e: React.FormEvent) => {
+  e.preventDefault()
+  if (!form.name || !form.email || !form.message) {
+    setError('Please fill in all fields.')
+    return
   }
+  if (!form.email.includes('@')) {
+    setError('Please enter a valid email address.')
+    return
+  }
+  setError('')
+  setSubmitted(true)
+}
 
   return (
     <section id="contact" className="bg-black py-24 px-6 md:px-70">
@@ -76,6 +87,8 @@ const Contact = () => {
               className="bg-transparent border border-white/10 text-white text-sm px-4 py-3 outline-none focus:border-orange-400 transition-colors placeholder:text-white/20 resize-none"
             />
           </div>
+
+          {error && <span className="text-orange-400 text-sm">{error}</span>}
 
           {/* Submit */}
           <button
