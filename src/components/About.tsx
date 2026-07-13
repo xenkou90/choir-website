@@ -6,7 +6,7 @@ const About = () => {
         {/* LEFT — text */}
         <div className="flex flex-col justify-center px-6 md:px-70 py-12">
           <span className="text-xs tracking-widest uppercase text-orange-400 mb-4">
-            Our Story
+            ♪ Our Story
           </span>
           <h2 className="font-serif text-white text-5xl font-bold mb-8">
             Who We Are

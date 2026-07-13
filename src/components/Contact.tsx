@@ -29,7 +29,7 @@ const handleSubmit = (e: React.FormEvent) => {
 
       {/* Section header */}
       <span className="text-xs tracking-widest uppercase text-orange-400">
-        Get In Touch
+        ♪ Get In Touch
       </span>
       <h2 className="font-serif text-white text-5xl font-bold mt-4 mb-16">
         Contact Us
