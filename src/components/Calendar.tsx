@@ -6,7 +6,7 @@ const Calendar = () => {
 
             {/* Section header */}
             <span className="text-xs tracking-widest uppercase text-orange-400">
-                Upcoming Performances
+                ♪ Upcoming Performances
             </span>
             <h2 className="font-serif text-white text-5xl font-bold mt-4 mb-16">
                 Where to Find Us

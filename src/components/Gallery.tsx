@@ -17,7 +17,7 @@ const Gallery = () => {
 
       {/* Section header */}
       <span className="text-xs tracking-widest uppercase text-orange-400">
-        Our Moments
+        ♪ Our Moments
       </span>
       <h2 className="font-serif text-white text-5xl font-bold mt-4 mb-16">
         Gallery
