@@ -27,6 +27,20 @@ const Navbar = () => {
     return () => observers.forEach((o) => o.disconnect())
   }, [])
 
+  useEffect(() => {
+    if (!menuOpen) return
+
+    const handleClickOutside = (e: MouseEvent) => {
+      const nav = document.querySelector('nav')
+      if (nav && !nav.contains(e.target as Node)) {
+        setMenuOpen(false)
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [menuOpen])
+
   return (
     <nav className="sticky top-0 z-50 bg-black/80 backdrop-blur-md border-b border-white/10">
       <div className="flex items-center justify-between px-6 md:px-70 py-5">
